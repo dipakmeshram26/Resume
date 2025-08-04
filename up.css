@@ -308,6 +308,48 @@ label {
     }
 } */
 
+.home .backimg img {
+    position: absolute;
+    top: 6%;
+    right: -21%;
+    left: 27%;
+    bottom: -43%;
+    z-index: -10;
+    /* opacity: 0.5; */
+    height: auto;
+    width: 80vh;
+    filter: drop-shadow(1px 1px 40vh rgb(11, 74, 211));
+    transition: 2s ease-in-out;
+    animation: backimg 14s infinite linear ;
+
+
+}
+
+
+@keyframes backimg {
+
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+.home .backg1 img{
+    position: absolute;
+    top: 25%;
+    right: 461px;
+    /* left: 0; */
+    bottom: -43%;
+    z-index: 2;
+    /* opacity: 0.5; */
+    height: auto;
+    width: 8vh;
+    transform: rotate(45deg);
+    background: radial-gradient(circle at 50% 50%, rgba(204, 51, 51, 0.1) 0%, rgba(18, 2, 18, 0.5) 100%);
+}
+
 .home {
 
     display: flex;
@@ -344,7 +386,8 @@ animation: spd 5s infinite linear;
     z-index: 9999;
     height: 13vh;
     width: 7vh;
-    filter: drop-shadow(1px 1px 20vh rgb(11, 74, 211));
+    opacity: 10;
+    filter: drop-shadow(1px 1px 10vh rgb(11, 211, 48));
     transition: 2s ease-in-out;
     transform: rotate(180deg);
     animation: spd 5s infinite linear ;
@@ -371,7 +414,7 @@ animation: spd 5s infinite linear;
     z-index: 9999;
     height: 13vh;
     width: 7vh;
-    filter: drop-shadow(1px 1px 20vh rgb(11, 74, 211));
+    filter: drop-shadow(1px 1px 20vh rgb(11, 211, 54));
     transition: 2s ease-in-out;
     animation: spds 5s infinite linear;
 }
@@ -399,7 +442,7 @@ animation: spd 5s infinite linear;
     font-style: normal;
     font-weight: 700;
     word-spacing: 0.25rem;
-    text-shadow: var(--text-shadow);
+    /* text-shadow: var(--text-shadow); */
 
 }
 
@@ -412,7 +455,9 @@ animation: spd 5s infinite linear;
     font-size: 4.3rem;
     text-align: center;
     cursor: pointer;
-    text-shadow: var(--text-shadow);
+    color: #ffffff;
+ 
+    /* text-shadow: var(--text-shadow); */
     /* text-shadow: 0px 0px 10vh rgb(11, 74, 211), 0 0 1em rgb(243, 7, 35), 0 0 0.2em rgb(251, 151, 228); */
     font-family: "IBM Plex Mono", monospace;
 }
