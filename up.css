@@ -354,15 +354,28 @@ label {
 .sideback img {
     position: absolute;
     top: 0px;
-    right: 0px;
+    left: 0px;
     z-index: -1;
-    height: 70vh;
-    width: 30%;
+    height: 100vh;
+    width: 20%;
     z-index: -2;
     opacity: 0.5;
     filter: drop-shadow(1px 1px 20vh rgb(11, 74, 211));
     transition: 2s ease-in-out;
-    animation: sideback 10s infinite linear;
+
+}
+.sidebackright img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    height: 100vh;
+    width: 20%;
+    z-index: -2;
+    opacity: 0.5;
+    filter: drop-shadow(1px 1px 20vh rgb(11, 74, 211));
+    transition: 2s ease-in-out;
+    transform: rotate(180deg);
 
 }
 
@@ -403,7 +416,7 @@ animation: spd 5s infinite linear;
     height: 13vh;
     width: 7vh;
     opacity: 10;
-    filter: drop-shadow(1px 1px 10vh rgb(11, 211, 48));
+    filter: drop-shadow(1px 1px 5vh rgb(11, 211, 48));
     transition: 2s ease-in-out;
     transform: rotate(180deg);
     animation: spd 5s infinite linear ;
@@ -430,7 +443,7 @@ animation: spd 5s infinite linear;
     z-index: 9999;
     height: 13vh;
     width: 7vh;
-    filter: drop-shadow(1px 1px 20vh rgb(11, 211, 54));
+    filter: drop-shadow(1px 1px 5vh rgb(11, 211, 54));
     transition: 2s ease-in-out;
     animation: spds 5s infinite linear;
 }
