@@ -379,6 +379,20 @@ label {
 
 }
 
+.dot{
+    position: absolute;
+    background-color: white;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+z-index: 900;
+transition: 0.2s all;
+mix-blend-mode: difference;
+border-radius: 0 0 29px white;
+ 
+
+}
+
 .home {
 
     display: flex;
