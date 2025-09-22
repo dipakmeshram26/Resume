@@ -19,7 +19,8 @@
     --text-shadow: 0px 0px 22vh rgb(11, 74, 211), 0 0 1em rgb(243, 7, 35), 0 0 0.2em rgb(251, 151, 228);
     --border: 1px 1px 10px rgb(204, 0, 255);
     --border2: 1px 1px 10px rgb(190, 188, 190);
-    --p-text: rgb(166, 160, 160);
+    --p-text: rgb(166 160 160 / 75%);
+    ;
     --back: rgb(71 4 56 / 83%);
     --h2-text: linear-gradient(to right, rgb(17, 14, 230), rgb(255, 0, 0));
 }
@@ -722,7 +723,7 @@ i {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 120vh;
+    /* height: 120vh; */
     padding-top: 5.5vh;
     color: wheat;
     padding-bottom: 10px;
@@ -756,7 +757,7 @@ i {
 
 #services .ser-head h1 {
     color: var(--primary-color);
-    font-size: 4vw;
+    font-size: 2.3em;
     margin-top: 4vh;
     margin-bottom: 4vh;
 
@@ -767,7 +768,7 @@ i {
 }
 
 #services .ser-head h2 {
-    font-size: 5vh;
+    font-size: 6vh;
     text-decoration: rgba(3, 42, 57, 0.682) underline;
     padding: 5px;
     margin: 5px;
@@ -796,19 +797,25 @@ i {
     align-items: center;
     justify-content: space-evenly;
     width: 80%;
-    height: 70vh;
+    /* height: 70vh; */
     margin: 10px;
     border-radius: 10px;
 
 }
 
 .ser-parts {
-    margin: 15px;
-    height: 60vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    height: 30vh;
     width: 40vh;
     border-radius: 10px;
-    background-color: var(--secondary-color);
+    background-color: #22012b3d;
     transition: all 0.2s ease-in-out;
+    backdrop-filter: blur(60px);
     overflow: hidden;
     position: relative;
     box-shadow: 1px 1px 10px rgb(72 48 72);
@@ -821,20 +828,10 @@ i {
     background: linear-gradient(150deg, rgb(233, 7, 165), rgb(11, 11, 136)); */
 }
 
-.ser-parts {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 5px;
-
-}
 
 .ser-parts img {
-    width: 14vh;
-    margin: 15px;
-    margin-top: 25px;
-    height: 14vh;
-    /* padding-left: 30px; */
+    width: 10vh;
+    margin: 7px;
     filter: drop-shadow(1px 1px 10px rgb(209, 15, 148));
 }
 
@@ -855,8 +852,8 @@ i {
 
 .ser-info h1 {
     color: var(--primary-color);
-    margin-top: 10px;
-    font-size: 2vw;
+    margin-top: 0px;
+    font-size: 1.5em;
 
 }
 
@@ -865,8 +862,8 @@ i {
 }
 
 .ser-info p {
-    margin-top: 13px;
-    font-size: 1.3vw;
+    margin-top: 10px;
+    font-size: 1em;
     color: var(--p-text);
 }
 
@@ -981,6 +978,7 @@ i {
     background-color: var(--secondary-color);
     z-index: 1;
     margin-bottom: 9vh;
+    margin-top: 10vh;
 }
 
 #about .ab-name {
@@ -3401,9 +3399,9 @@ i {
 
 @media only screen and (max-width: 887px) {
 
-      .hap-items {
+    .hap-items {
         display: none;
-      }
+    }
 }
 
 
