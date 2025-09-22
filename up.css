@@ -1153,13 +1153,15 @@ i {
 /* skills */
 #skills {
     /* height: 100vh; */
-    width: 75%;
-    display: flex;
+    width: 85%;
+    display: flex
+;
     flex-direction: row;
-
     padding-bottom: 10px;
     border-radius: 10px;
     /* background: linear-gradient(150deg, rgb(233, 7, 165), rgb(11, 121, 136)); */
+    justify-content: space-between;
+
 }
 
 
