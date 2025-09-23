@@ -1153,10 +1153,9 @@ i {
 /* skills */
 #skills {
     /* height: 100vh; */
-      width: 100%;
+    width: 100%;
     max-width: 1400px;
-    display: flex
-;
+    display: flex;
     flex-direction: row;
     padding-bottom: 10px;
     border-radius: 10px;
@@ -1167,8 +1166,7 @@ i {
 
 
 #skills .skill-head {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     width: 50%;
@@ -1282,8 +1280,7 @@ i {
 .skills-items {
     position: relative;
     max-width: 700px;
-    display: flex
-;
+    display: flex;
     flex-direction: row;
     gap: 30px;
     width: 100%;
@@ -1295,14 +1292,13 @@ i {
 }
 
 .skills-items .skill-box {
-   width: 15em;
+    width: 15em;
     height: 10vh;
     /* margin: 25px 0; */
     padding: 0 20px;
     background: linear-gradient(to right, rgb(157 15 131 / 25%), #0000004a);
     box-shadow: 0 0 20px #65386585;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
@@ -1537,6 +1533,7 @@ i {
     margin: 10px;
     margin-top: 100px;
     background: linear-gradient(to right, rgba(0, 0, 255, 0.792), rgba(220, 20, 183, 0.907));
+
 }
 
 .hap-items {
@@ -1545,6 +1542,7 @@ i {
     align-items: center;
     height: 50vh;
     flex-wrap: wrap;
+
 }
 
 .hap-items .hap-it-i {
@@ -1555,6 +1553,7 @@ i {
     height: 20vh;
     margin: 5px;
     /* background-color: #a5a548; */
+
 }
 
 .hap-items .hap-it-i i {
@@ -1563,6 +1562,7 @@ i {
     box-shadow: 0 0 1px white;
     border-radius: 10px;
     margin: 5px;
+
 }
 
 .hap-items .hap-it-i .hap-i-info h1 {
@@ -1584,7 +1584,6 @@ i {
 
 /* education */
 
-
 #education {
     position: relative;
     height: 160vh;
@@ -1601,7 +1600,6 @@ i {
     box-shadow: #e8c1df;
 }
 
-
 .content-name {
     font-size: 2.6vh;
     text-decoration: rgba(3, 42, 57, 0.682) underline;
@@ -1616,8 +1614,6 @@ i {
     animation: anime 1s infinite alternate;
 
 }
-
-
 
 
 .edu_items {
@@ -1641,6 +1637,7 @@ i {
     height: 105vh;
     width: 2px;
     top: 15vh;
+
 }
 
 
@@ -1662,7 +1659,7 @@ i {
 }
 
 .edu-parts1:hover {
-    box-shadow: 0px 0px 70px rgba(110, 15, 104, 0.614);
+    box-shadow: 0px 0px 10px rgba(239, 26, 225, 0.614);
 
 }
 
@@ -1751,7 +1748,7 @@ i {
 }
 
 .edu-parts2:hover {
-    box-shadow: 0px 0px 70px rgba(239, 26, 225, 0.614);
+    box-shadow: 0px 0px 10px rgba(239, 26, 225, 0.614);
 
 }
 
@@ -1836,7 +1833,7 @@ i {
 }
 
 .edu-parts3:hover {
-    box-shadow: 0px 0px 70px rgba(239, 26, 225, 0.614);
+    box-shadow: 0px 0px 10px rgba(239, 26, 225, 0.614);
 
 }
 
@@ -1920,7 +1917,7 @@ i {
 }
 
 .edu-parts4:hover {
-    box-shadow: 0px 0px 70px rgba(239, 26, 225, 0.614);
+    box-shadow: 0px 0px 10px rgba(239, 26, 225, 0.614);
 
 }
 
@@ -1997,22 +1994,22 @@ i {
 
 
 .edu_items .into {
-    height: 28vh;
     overflow: hidden;
     transition: 1s ease-in-out;
     position: absolute;
     z-index: 5;
-
     padding-top: 10px;
+    box-shadow: 0 0 10px #430243;
+    border-radius: 10px;
 }
 
 .edu_items .into h2 {
     color: var(--primary-color);
+
     padding: 5px;
     margin: 2px;
     width: 19vh;
-    box-shadow: 1px 1px 10px rgba(137, 135, 138, 0.737);
-    box-shadow: var(--text-shadow);
+    box-shadow: 0 0 10px rgb(111 3 93 / 74%);
 }
 
 .edu_items .into:hover h2 {
@@ -2122,6 +2119,7 @@ i {
     flex-direction: row;
     flex-wrap: wrap;
     width: 85%;
+    gap: 10px;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
@@ -2149,7 +2147,7 @@ i {
 } */
 
 .p-items .select {
-    background: linear-gradient(150deg, rgb(233, 7, 165), rgb(11, 11, 136));
+    background: linear-gradient(150deg, rgb(233 7 165 / 18%), rgb(11 11 136 / 49%));
     width: 70vh;
     height: 42vh;
     margin: 10px 20px;
@@ -2164,11 +2162,11 @@ i {
 }
 
 .p-items .select img {
-    height: 22vh;
-    width: auto;
+    height: auto;
+    width: 97%;
     margin: 10px;
-    margin-bottom: 20px;
-    border-radius: 20px;
+    margin-bottom: 1px;
+    border-radius: 6px;
     filter: drop-shadow(1px 1px 15px rgb(87, 10, 62))
 }
 
@@ -2176,17 +2174,16 @@ i {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    padding: 2px;
-    margin-bottom: 15px;
+    width: 95%;
+   
     transition: 1s ease-in-out;
 }
 
 .p-items .select .disc h3 {
-    color: #f88bf8;
-    padding: 4px 8px;
-    border-radius: 30px;
-    border: 1px solid rgb(255, 192, 248, 0.5);
+    color: #afafaf;
+    
+    
+  
 }
 
 .p-items .select .inf .nm {
@@ -2489,8 +2486,8 @@ i {
 
 #client .cl-head {
     position: absolute;
-    right: 18vh;
-    top: 10vh;
+    right: 10vh;
+    top: 20vh;
 }
 
 #client .cl-head h1 {
@@ -2520,7 +2517,7 @@ i {
 
 #client .cl-i1 {
     width: 440px;
-    height: 70vh;
+    height: 40vh;
     position: absolute;
     top: 12vh;
     padding: 30px;
@@ -2532,24 +2529,26 @@ i {
 }
 
 #client .cl-i1 p {
-    font-size: 35px;
+  font-size: 1.5em;
     position: absolute;
-    top: 20vh;
+    top: 4vh;
     width: 400px;
 }
 
 #client .cl-i1 h2 {
-    font-size: 25px;
+        font-size: 25px;
     color: #767373;
     position: absolute;
-    top: 43vh;
+    top: 30vh;
+    right: 30px;
 }
 
 #client .cl-i1 h3 {
-    font-size: 20px;
+        font-size: 20px;
     color: #767373;
     position: absolute;
-    top: 50vh;
+    top: 36vh;
+    right: 30px;
 }
 
 
@@ -2579,14 +2578,16 @@ i {
     font-size: 25px;
     color: #767373;
     position: absolute;
-    top: 43vh;
+        top: 30vh;
+            right: 30px;
 }
 
 #client .cl-i2 h3 {
     font-size: 20px;
     color: #767373;
     position: absolute;
-    top: 50vh;
+    top: 36vh;
+        right: 30px;
 }
 
 /* #client .cl-i2/ */
@@ -2594,7 +2595,7 @@ i {
 
 #client .cl-i2 {
     width: 440px;
-    height: 70vh;
+       height: 40vh;
     position: absolute;
     bottom: 12px;
     right: 10vh;
@@ -2607,25 +2608,14 @@ i {
 }
 
 #client .cl-i2 p {
-    font-size: 35px;
+    font-size: 1.5em;
     position: absolute;
-    top: 20vh;
+    top: 4vh;
     width: 400px;
+     
 }
-
-#client .cl-i2 h2 {
-    font-size: 25px;
-    color: #767373;
-    position: absolute;
-    top: 43vh;
-}
-
-#client .cl-i2 h3 {
-    font-size: 20px;
-    color: #767373;
-    position: absolute;
-    top: 50vh;
-}
+ 
+ 
 
 #client .cl-i1:hover .backc2 {
     height: 38vh;
@@ -3209,6 +3199,10 @@ i {
         border-radius: 10px 10px 0 0;
         background-color: #1b18188e;
     }
+
+    #client{
+        display: none;
+    }
 }
 
 
@@ -3218,7 +3212,7 @@ i {
     }
 
     #skills {
-        height: 86vh;
+        /* height: 86vh; */
         width: 86%;
     }
 
@@ -3312,7 +3306,7 @@ i {
     .ser-items {
 
         width: 95%;
-        height: 56vh;
+        /* height: 56vh; */
     }
 
     .ser-parts {
@@ -3322,7 +3316,7 @@ i {
 
     .ser-parts img {
         width: 11vh;
-        margin: 15px;
+        margin: 15px 0 15px 0;
         margin-top: 25px;
         height: 11vh;
     }
@@ -3746,9 +3740,7 @@ i {
         margin: 2px;
     }
 
-    #skills {
-        height: 54vh;
-    }
+
 
     .edu-parts .into h2 {
         padding: 4px;
