@@ -2175,15 +2175,15 @@ i {
     justify-content: space-between;
     align-items: center;
     width: 95%;
-   
+
     transition: 1s ease-in-out;
 }
 
 .p-items .select .disc h3 {
     color: #afafaf;
-    
-    
-  
+
+
+
 }
 
 .p-items .select .inf .nm {
@@ -2529,14 +2529,14 @@ i {
 }
 
 #client .cl-i1 p {
-  font-size: 1.5em;
+    font-size: 1.5em;
     position: absolute;
     top: 4vh;
     width: 400px;
 }
 
 #client .cl-i1 h2 {
-        font-size: 25px;
+    font-size: 25px;
     color: #767373;
     position: absolute;
     top: 30vh;
@@ -2544,7 +2544,7 @@ i {
 }
 
 #client .cl-i1 h3 {
-        font-size: 20px;
+    font-size: 20px;
     color: #767373;
     position: absolute;
     top: 36vh;
@@ -2578,8 +2578,8 @@ i {
     font-size: 25px;
     color: #767373;
     position: absolute;
-        top: 30vh;
-            right: 30px;
+    top: 30vh;
+    right: 30px;
 }
 
 #client .cl-i2 h3 {
@@ -2587,7 +2587,7 @@ i {
     color: #767373;
     position: absolute;
     top: 36vh;
-        right: 30px;
+    right: 30px;
 }
 
 /* #client .cl-i2/ */
@@ -2595,7 +2595,7 @@ i {
 
 #client .cl-i2 {
     width: 440px;
-       height: 40vh;
+    height: 40vh;
     position: absolute;
     bottom: 12px;
     right: 10vh;
@@ -2612,10 +2612,10 @@ i {
     position: absolute;
     top: 4vh;
     width: 400px;
-     
+
 }
- 
- 
+
+
 
 #client .cl-i1:hover .backc2 {
     height: 38vh;
@@ -3010,6 +3010,9 @@ i {
 /* media  */
 /* media */
 
+
+
+
 @media only screen and (max-width: 1279px) {
 
 
@@ -3155,6 +3158,7 @@ i {
 
 }
 
+
 @media only screen and (max-width: 1204px) {
 
     #skills .skill-head h1 {
@@ -3200,7 +3204,7 @@ i {
         background-color: #1b18188e;
     }
 
-    #client{
+    #client {
         display: none;
     }
 }
@@ -3543,6 +3547,13 @@ i {
         font-size: 1rem;
     }
 } */
+
+@media only screen and (max-width: 768px) {
+    .home p {
+        width: 79%;
+        font-size: 1em;
+    }
+}
 
 @media only screen and (max-width: 686px) {
 
