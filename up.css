@@ -530,7 +530,7 @@ animation: spd 5s infinite linear;
 .home p {
     text-align: center;
     width: 75%;
-    font-size: 2.7vh;
+    font-size: 1.4em;
     /* line-height: 2rem; */
     color: transparent;
     margin-bottom: 20px;
@@ -1618,6 +1618,7 @@ i {
 
 .edu_items {
     width: 100%;
+    max-width: 1283px;
     height: 130vh;
     display: flex;
     flex-direction: row;
@@ -3221,14 +3222,14 @@ i {
     }
 
     .skills-items {
-        width: 80%;
+        width: 50%;
         margin: 1px;
     }
 
     .skills-items .skill-box {
         width: 90%;
         height: 14vh;
-        margin: 18px 0;
+        margin: 0;
     }
 
     #skills .skill-head p {
@@ -3304,25 +3305,31 @@ i {
 
     #services {
 
-        height: 90vh;
+        /* height: 90vh; */
     }
 
     .ser-items {
 
         width: 95%;
         /* height: 56vh; */
+        gap: 20px;
     }
 
     .ser-parts {
 
-        height: 47vh;
+        height: 40vh;
+    }
+
+    skills-items .skill-box {
+
+        margin: 0px;
     }
 
     .ser-parts img {
-        width: 11vh;
+        width: 9vh;
         margin: 15px 0 15px 0;
         margin-top: 25px;
-        height: 11vh;
+        height: 9vh;
     }
 
     #services .ser-head h1 {
@@ -3719,6 +3726,8 @@ i {
 
 
 
+
+
     .about_items {
         width: 90%;
         height: 73vh;
@@ -3873,10 +3882,11 @@ i {
 
 
 
-.edu-parts {
 
-    @media only screen and (min-width: 413px),
-    (max-width: 630px) {
+
+@media only screen and (min-width: 413px),
+(max-width: 630px) {
+    .edu-parts {
 
         margin: 10px;
         padding: 9px;
