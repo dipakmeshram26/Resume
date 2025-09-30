@@ -64,6 +64,10 @@ label {
     position: absolute;
 }
 
+.manu{
+    display: flex;
+}
+
 .nav {
     display: inline-flex;
     align-items: center;
@@ -73,6 +77,8 @@ label {
     top: 5px;
     width: 99%;
     border-radius: 50px;
+        border-top: 0.2px solid rgb(76, 0, 95);
+    border-bottom: 0.1px solid rgb(53, 1, 66);
     background: linear-gradient(to right, rgb(5, 2, 7), rgb(30, 3, 15), rgb(0, 0, 0));
     /* background: var(--secondary-color) */
 }
