@@ -11,6 +11,7 @@
 * {
     margin: 0;
     padding: 0;
+        /* font-family: "Roboto", system-ui; */
 }
 
 :root {
@@ -769,7 +770,7 @@ i {
 
 #services .ser-head h2 {
     font-size: 6vh;
-    text-decoration: rgba(3, 42, 57, 0.682) underline;
+    /* text-decoration: rgba(3, 42, 57, 0.682) underline; */
     padding: 5px;
     margin: 5px;
     background: linear-gradient(red, blue);
@@ -830,7 +831,7 @@ i {
 
 
 .ser-parts img {
-    width: 10vh;
+    width: 7vh;
     margin: 7px;
     filter: drop-shadow(1px 1px 10px rgb(209, 15, 148));
 }
@@ -1070,6 +1071,7 @@ i {
     overflow: hidden;
     height: 39vh;
     width: 38vh;
+        border-radius: 50%;
     filter: drop-shadow(1px 1px 20px rgb(87, 10, 62));
     transition: 1s ease-in-out;
 }
@@ -1189,23 +1191,18 @@ i {
 
 #skills .skill-head h2 {
     font-size: 4.5vh;
-    text-decoration: rgba(3, 42, 57, 0.682) underline;
+    /* text-decoration: rgba(3, 42, 57, 0.682) underline; */
     padding: 5px;
     margin: 5px;
-    background: linear-gradient(red, blue);
+    background: linear-gradient(to right, red, blue);
     text-shadow: 0px 0px 60px rgba(102, 3, 36, 0.286);
     color: transparent;
     -webkit-background-clip: text;
-    animation: skilly 1s infinite alternate;
+    animation: anime 1s infinite alternate;
 
 }
 
-@keyframes skilly {
-    100% {
-        text-shadow: 0px 0px 60px rgba(255, 0, 85, 0.692);
 
-    }
-}
 
 #skills .skill-head p {
     position: absolute;
@@ -1532,8 +1529,7 @@ i {
     width: 100%;
     margin: 10px;
     margin-top: 100px;
-    background: linear-gradient(to right, rgba(0, 0, 255, 0.792), rgba(220, 20, 183, 0.907));
-
+   background: linear-gradient(to right, rgb(112 0 255 / 7%), rgb(220 20 183 / 11%));
 }
 
 .hap-items {
@@ -1602,7 +1598,7 @@ i {
 
 .content-name {
     font-size: 2.6vh;
-    text-decoration: rgba(3, 42, 57, 0.682) underline;
+    /* text-decoration: rgba(3, 42, 57, 0.682) underline; */
     padding: 15px;
     margin: 15px;
     margin-top: 7vh;
@@ -2149,8 +2145,8 @@ i {
 
 .p-items .select {
     background: linear-gradient(150deg, rgb(233 7 165 / 18%), rgb(11 11 136 / 49%));
-    width: 70vh;
-    height: 42vh;
+   width: 48vh;
+    height: 40vh;
     margin: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -2162,9 +2158,13 @@ i {
     border-radius: 10px;
 }
 
+.p-items .select:hover{
+    box-shadow: 0 0 30px rgb(125, 47, 133);
+}
+
 .p-items .select img {
-    height: auto;
-    width: 97%;
+        height: 23vh;
+    width: 96%;
     margin: 10px;
     margin-bottom: 1px;
     border-radius: 6px;
@@ -2183,8 +2183,20 @@ i {
 .p-items .select .disc h3 {
     color: #afafaf;
 
+}
 
+.p-items .select .disc a {
+    color: #7e7b7b;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 5px 7px ;
 
+}
+.p-items .select:hover a{
+    color: #e4e4e4;
+    border: 0.5px solid rgb(102, 102, 102);
+     padding: 5px 7px ;
+    border-radius: 50px;
 }
 
 .p-items .select .inf .nm {
@@ -2725,7 +2737,7 @@ i {
     display: flex;
     flex-direction: row;
     color: antiquewhite;
-    background: linear-gradient(150deg, rgb(233, 7, 165), rgb(11, 11, 136));
+    background: linear-gradient(150deg, rgb(85 2 59), rgb(0 8 35));
     border-radius: 10px;
     margin: 1vh;
     transition: 1s;
@@ -2887,8 +2899,8 @@ i {
 .footer {
     width: 80%;
     display: flex;
-    padding: 10px;
-    /* background-color: blueviolet; */
+   padding: 10px 125px;
+    background-color: #0e001a;
 
 }
 
@@ -2912,9 +2924,15 @@ i {
 }
 
 .footer .center h2 {
-    color: #f88bf8;
+   
     font-size: 25px;
     padding: 10px;
+    background: linear-gradient(to right, red, blue);
+    text-shadow: 0px 0px 60px rgba(102, 3, 36, 0.286);
+    color: transparent;
+    opacity: 1;
+    -webkit-background-clip: text;
+    animation: anime 1s infinite alternate;
 
 }
 
@@ -2946,13 +2964,19 @@ i {
 
 .footer .right {
     width: 20%;
-    color: #f88bf8;
+
     /* background-color: gainsboro; */
 }
 
 .footer .right h1 {
     font-size: 2.7vh;
     margin-bottom: 10px;
+    background: linear-gradient(to right, red, blue);
+    text-shadow: 0px 0px 60px rgba(102, 3, 36, 0.286);
+    color: transparent;
+    opacity: 1;
+    -webkit-background-clip: text;
+    animation: anime 1s infinite alternate;
 
 }
 
@@ -3298,6 +3322,12 @@ i {
 }
 
 @media only screen and (max-width: 970px) {
+    .home p {
+
+        font-size: 1.2em;
+        line-height: 2rem;
+    }
+
     .edu-parts .into h2 {
         width: 37%;
     }
@@ -3408,6 +3438,13 @@ i {
     #contact {
         height: 100vh;
         width: 90%;
+    }
+
+    .hap-items .hap-it-i {
+
+        width: 30vh;
+        height: 13vh;
+        margin: 5px;
     }
 }
 
@@ -3675,7 +3712,9 @@ i {
 
     .nav .nav-items {
         flex-direction: column;
-        height: 64vh;
+        position: absolute;
+        top: 10px;
+        height: 56vh;
         justify-content: space-evenly
     }
 

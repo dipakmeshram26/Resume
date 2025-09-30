@@ -110,7 +110,9 @@ label {
 
 .nav .nav-items {
     flex-direction: column;
-    height: 64vh;
+            position: absolute;
+      
+        top: 10px;
     justify-content: space-evenly
 }
 
@@ -250,6 +252,7 @@ i {
     padding-bottom: 10px;
     display: flex;
     margin-top: 5px;
+            margin-bottom: 10vh;
     /* height: 91vh; */
     flex-wrap: wrap;
     justify-content: center;
@@ -358,7 +361,11 @@ i {
 }
 
 #skills .skill-head h2 {
-    font-size: 4.5vw;
+    font-size: 6.5vw;
+}
+
+#skills .skill-head h1 {
+    font-size: 1.3em;
 }
 
 #skills .skill-head p {
@@ -623,7 +630,7 @@ i {
 }
 
 #services .ser-head h2 {
-    font-size: 2.6vh;
+    font-size: 1.8em;
     margin: 10px;
 }
 
@@ -728,7 +735,7 @@ i {
 
 #projects .p-items {
     width: 90%;
-    height: 80vh;
+    height: 86vh;
 }
 
 .p-items .p-objects {
@@ -769,12 +776,13 @@ i {
 .p-items .select img {
     width: 95%;
     margin: 8px;
+    height: 18vh;
 }
 
 .p-items .select .disc {
     width: 99%;
     flex-direction: column;
-    
+
 
 }
 
@@ -786,26 +794,26 @@ i {
     border: none;
 }
 
-.p-items .select .disc a{
+.p-items .select .disc a {
     text-decoration: none;
     position: absolute;
-     width: 95%;
-     height: 143px;
-      display: flex;
-     text-align: center;
-     align-items: center;
-     color: rgb(163, 166, 168);
-     justify-content: center;
-    box-shadow: 0 0 10px ;
+    width: 95%;
+    height: 143px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: rgb(163, 166, 168);
+    justify-content: center;
+    box-shadow: 0 0 10px;
     top: 5%;
     background: rgba(61, 2, 61, 0.315);
     backdrop-filter: blur(5px);
-    transform: translate(0 ,-120%);
+    transform: translate(0, -120%);
     transition: 0.3s ease-in-out;
 }
 
-.p-items .select:hover .disc a{
-    
+.p-items .select:hover .disc a {
+
     transform: translate(0%);
 }
 
@@ -832,6 +840,17 @@ i {
     margin-bottom: 13vw;
 }
 
+#blogs .blo-head {
+    margin-top: 110px;
+}
+
+#blogs .blo-head h1 {
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+
 #blogs>h1 {
     font-size: 3vh;
     padding: 1px;
@@ -846,7 +865,7 @@ i {
 
 .b-categary .b-items img {
     width: 100%;
-    height: 23vh;
+    height: 20vh;
     border-radius: 10px;
 }
 
@@ -865,7 +884,7 @@ i {
 
 .b-categary .b-items .b-disc h1 {
     padding: 13px 2px;
-    font-size: 4.5vh;
+    font-size: 3.5vh;
 }
 
 .b-categary .b-items .b-disc h2 {
@@ -912,7 +931,6 @@ i {
 }
 
 
-
 #client .cl-items {
     display: flex;
     flex-direction: column;
@@ -945,7 +963,7 @@ i {
 /* contact */
 #contact {
     width: 90%;
-    height: 115vh;
+    height: 100vh;
 }
 
 .contact-title {
@@ -969,7 +987,7 @@ i {
     width: 100%;
     margin: 2px;
     margin-top: 10px;
-    height: 100vh;
+    height: 77vh;
 }
 
 
@@ -1070,7 +1088,7 @@ i {
 
 .footer .left {
     width: 80%;
-    height: 35vh;
+        height: 22vh;
     margin: 10px;
     padding: 5px;
     font-size: 13px;
@@ -1083,7 +1101,7 @@ i {
 .footer .center {
     width: 45%;
     padding: 2px;
-    height: 28vh;
+    height: 22vh;
 }
 
 .footer .center h2 {
@@ -1110,4 +1128,9 @@ i {
 
 .r-share img {
     margin: 6px;
+}
+
+.footer .right h1 {
+    font-size: 2.3vh;
+    margin-bottom: 5px;
 }
