@@ -878,13 +878,15 @@ i {
 }
 
 .b-categary .b-items .b-disc {
+    width: 95%;
 
     margin-left: 2px;
 }
 
 .b-categary .b-items .b-disc h1 {
-    padding: 13px 2px;
-    font-size: 3.5vh;
+    padding: 7px 2px;
+            font-size: 1.1em;
+
 }
 
 .b-categary .b-items .b-disc h2 {

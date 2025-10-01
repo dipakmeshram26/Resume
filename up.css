@@ -473,7 +473,7 @@ animation: spd 5s infinite linear;
 
 .home h2 {
 
-    font-size: 6vh;
+    font-size: 2.3em;
     color: var(--primary-color);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     ;
@@ -1178,6 +1178,8 @@ i {
     flex-direction: column;
     justify-content: start;
     width: 50%;
+        padding-left: 10px;
+
     position: relative;
 }
 
@@ -2153,7 +2155,7 @@ i {
     background: linear-gradient(150deg, rgb(233 7 165 / 18%), rgb(11 11 136 / 49%));
    width: 48vh;
     height: 40vh;
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -2358,9 +2360,9 @@ i {
 }
 
 .b-categary .b-items .b-disc {
-    padding: 5px;
-    margin-left: 40px;
-    /* opacity: 0.75; */
+        padding: 5px;
+    margin-left: 23px;
+    width: 65%;
     transition: 0.3s ease-in-out;
 }
 
@@ -2379,14 +2381,15 @@ i {
 
 .b-categary .b-items .b-disc h1 {
     padding: 5px;
-    font-size: 40px;
+    font-size: 1.7em;
+    margin: 5px 0 0 0 ;
     color: rgb(221, 220, 221);
     transition: 0.3s ease-in-out;
 }
 
 .b-categary .b-items .b-disc p {
     padding: 5px;
-    margin-bottom: 10px;
+       margin: 6px 0 0 0 ;
     color: rgb(133, 107, 133);
 }
 
@@ -3132,7 +3135,7 @@ i {
 
     .p-items .select {
         width: 60vh;
-        height: 48vh;
+        /* height: 48vh; */
     }
 
     #blogs {
@@ -3322,8 +3325,9 @@ i {
     }
 
     .p-items .select {
-        width: 110vh;
-        height: 55vh;
+               width: 41vh;
+        height: 35vh;
+    
     }
 }
 
@@ -3834,22 +3838,18 @@ i {
         height: 14vh;
     }
 
-    #projects {
-        height: 72vh;
-    }
+   
 
     #projects .p-categary a {
         width: 93%;
     }
 
-    #projects .p-items {
-        width: 91%;
-        height: 50vh;
-    }
+   
+    
 
     #projects .p-items {
         width: 91%;
-        height: 50vh;
+        /* height: 50vh; */
     }
 
     .p-items .p-objects .disc {
@@ -3864,6 +3864,7 @@ i {
     .p-items .select {
         width: 33vh;
         height: 35vh;
+        margin: 0 ;
     }
 
     #blogs a button {
