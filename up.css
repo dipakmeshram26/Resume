@@ -1410,6 +1410,15 @@ i {
     padding: 0 0 4vh 0;
 }
 
+.skill-box .sk_lang{
+position: absolute;
+bottom: 10px;
+right: 5px;
+color: rgb(100, 97, 97);
+font-size: 1em;
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
 .skill-box .skill-bar {
     height: 5px;
     width: 100%;
