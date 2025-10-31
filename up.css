@@ -657,8 +657,8 @@ i {
 
 .back1 {
     filter: blur(100px);
-    background-color: var(--boxx-shadow);
-    height: 58vh;
+    background-color: rgba(61, 6, 48, 0.83);
+    height: 80vh;
     border-radius: 999px;
     width: 38%;
     position: absolute;
@@ -685,7 +685,7 @@ i {
 
 .back4 {
     filter: blur(107px);
-    background-color: var(--boxx-shadow);
+    background-color: rgb(33 7 27 / 83%);
     height: 65vh;
     border-radius: 999px;
     width: 41%;
