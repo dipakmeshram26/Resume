@@ -469,6 +469,99 @@ animation: spd 5s infinite linear;
 
 }
 
+.home:hover .ph-on {
+    position: absolute;
+    z-index: -20;
+    opacity: 0.7;
+    right: -190px;
+    top: -190px;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(98, 4, 122);
+    animation: pp-on 1s infinite alternate;
+
+}
+
+@keyframes pp-on {
+    100% {
+        right: -100px;
+        top: -100px;
+
+    }
+}
+
+.home:hover .ph-on1 {
+    position: absolute;
+    z-index: -20;
+    opacity: 0.7;
+    right: -150px;
+    top: -150px;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(98, 4, 122);
+    animation: pr-on1 1s infinite alternate;
+
+}
+
+@keyframes pr-on1 {
+    100% {
+        right: -65px;
+        top: -65px;
+
+    }
+}
+
+.home:hover .ph-on2 {
+    position: absolute;
+    z-index: -20;
+    opacity: 0.7;
+    right: -150px;
+    top: -150px;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(98, 4, 122);
+    animation: pr-on2 1s infinite alternate;
+
+}
+
+@keyframes pr-on2 {
+    100% {
+        right: -35px;
+        top: -35px;
+
+    }
+}
+
+
+/* .home:hover .ph-bott {
+    position: absolute;
+    z-index: -20;
+    opacity: 0.5;
+    left: -150px;
+    bottom: -150px;
+    height: 24vh;
+    width: 24vh;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(204, 0, 255);
+    animation: phh-bott 1s infinite alternate;
+
+}
+
+@keyframes phh-bott {
+    100% {
+        left: -50px;
+        bottom: -50px;
+
+    }
+} */
+
 
 
 .home h2 {
@@ -1421,7 +1514,7 @@ i {
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
- 
+
 
 .skill-box .skill-bar {
     height: 5px;
@@ -2259,7 +2352,7 @@ i {
 } */
 
 .p-items .select {
-    background: linear-gradient(150deg, rgb(233 7 165 / 18%), rgb(11 11 136 / 49%));
+    background: linear-gradient(to right, rgb(112 0 255 / 7%), rgb(220 20 183 / 11%));
     width: 48vh;
     height: 40vh;
     /* margin: 10px 20px; */
@@ -2296,7 +2389,7 @@ i {
 @keyframes pp-on {
     100% {
         right: -100px;
-            bottom: -100px;
+        bottom: -100px;
 
     }
 }
@@ -2306,7 +2399,7 @@ i {
     z-index: -20;
     opacity: 0.7;
     right: -150px;
-        bottom: -150px;
+    bottom: -150px;
     height: 20vh;
     width: 20vh;
     border-radius: 50%;
@@ -2319,7 +2412,7 @@ i {
 @keyframes pr-on1 {
     100% {
         right: -65px;
-           bottom: -65px;
+        bottom: -65px;
 
     }
 }
@@ -2329,7 +2422,7 @@ i {
     z-index: -20;
     opacity: 0.7;
     right: -150px;
-      bottom: -150px;
+    bottom: -150px;
     height: 10vh;
     width: 10vh;
     border-radius: 50%;
@@ -2342,7 +2435,7 @@ i {
 @keyframes pr-on2 {
     100% {
         right: -35px;
-            bottom: -35px;
+        bottom: -35px;
 
     }
 }
@@ -2353,7 +2446,7 @@ i {
     z-index: -20;
     opacity: 0.5;
     left: -150px;
-    bottom: -150px;
+    top: -150px;
     height: 18vh;
     width: 18vh;
     border-radius: 50%;
@@ -2366,7 +2459,7 @@ i {
 @keyframes pr-bott {
     100% {
         left: -50px;
-        bottom: -50px;
+        top: -50px;
 
     }
 }
@@ -2953,7 +3046,7 @@ i {
     border-radius: 10px;
     margin: 1vh;
     transition: 1s;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 #cont-sides:hover {
@@ -3022,7 +3115,7 @@ i {
     width: 50%;
     margin: 0.75rem;
     border-radius: 20px;
-     
+
 }
 
 .contact-left-title {
