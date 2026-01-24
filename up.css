@@ -854,6 +854,12 @@ i {
     margin-top: 50px;
 }
 
+.ser-head p {
+    color: white;
+    margin: 15px;
+
+}
+
 
 #services .ser-head h1 {
     color: var(--primary-color);
@@ -2324,7 +2330,7 @@ i {
     flex-direction: row;
     flex-wrap: wrap;
     width: 85%;
-    gap: 10px;
+    gap:35px;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
@@ -2465,7 +2471,7 @@ i {
 }
 
 .p-items .select img {
-    height: 23vh;
+        height: 21vh;
     width: 96%;
     margin: 10px;
     margin-bottom: 1px;
@@ -2662,8 +2668,9 @@ i {
 }
 
 .b-categary .b-items .b-disc h2 {
-    font-size: 18px;
+        font-size: 20px;
     font-weight: 400;
+    padding: 10px;
 }
 
 .b-categary .b-items .b-disc h2 .b-d-h2 {
