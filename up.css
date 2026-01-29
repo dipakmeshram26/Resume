@@ -3319,6 +3319,7 @@ i {
     width: 50%;
     margin: 10px;
     padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-color: beige; */
 }
 
@@ -3326,6 +3327,15 @@ i {
     height: 10vh;
     filter: drop-shadow(1px 1px 10px rgb(255, 0, 208));
 
+}
+
+
+.footer .left h2{
+        font-size: 25px;
+}
+.footer .left h3{
+        color: #9f9e9e;
+        font-weight: normal;
 }
 
 
@@ -3444,6 +3454,10 @@ i {
 
 }
 
+
+footer p{
+    color: rgb(199, 199, 199);
+}
 
 /* media  */
 /* media */
